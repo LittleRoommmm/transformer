@@ -9,7 +9,7 @@ Building blocks for Transformer
 '''
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 
 def ln(inputs, epsilon=1e-8, scope="ln"):

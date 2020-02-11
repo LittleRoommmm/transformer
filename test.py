@@ -10,7 +10,7 @@ Inference
 
 import os
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from data_load import get_batch
 from model import Transformer
